@@ -422,6 +422,7 @@ int DFA::Hamilton_Deep_Mul_Search() {
     for (auto c : LongestStr)
         outfile << char(c);
     outfile.close();
+    return 0;
 }
 
 
