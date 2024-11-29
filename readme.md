@@ -101,10 +101,6 @@ EvilStrGen/
 
 ```
 
-
-
-
-
 ## Run
 
 We provide the example for training on miniImagenet:
