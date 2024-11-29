@@ -101,21 +101,9 @@ EvilStrGen/
 
 ```
 
-`data/data_generator` provides the python file for data generator.
 
-3. modify the `path` in `example.py`:
 
-```python
-        mini = MiniImagenet('miniimagenet/', mode='train', n_way=args.n_way, k_shot=args.k_spt,
-                    k_query=args.k_qry,
-                    batchsz=10000, resize=args.imgsz)
-		...
-        mini_test = MiniImagenet('miniimagenet/', mode='test', n_way=args.n_way, k_shot=args.k_spt,
-                    k_query=args.k_qry,
-                    batchsz=100, resize=args.imgsz)
-```
 
-to your actual data path.
 
 ## Run
 
